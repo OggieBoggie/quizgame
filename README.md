@@ -10,6 +10,11 @@ Users can choose from a list of available quizzes, and answer multiple choice of
 - **Quiz List** - Displays all available quizzes from JSON data file.
 - **Score Tracking** - Keeps track of the user's score
 
+## Planned Features
+- **Filtering and Querying Quizzes** - Allows users to search for certain quizzes
+- **Real Time Leaderboard** - Users can compare their scores to others at the end
+- **OAuth** - Allow authentication with google accounts
+
 ## Technology
 - React (Vite)
 - TypeScript
