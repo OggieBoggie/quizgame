@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "title": "General Knowledge",
+    "questions": [
+      {
+        "question": "What is the capital of France?",
+        "choices": ["Paris", "London", "Berlin", "Madrid"],
+        "answer": "Paris",
+        "type": "multiple"
+      },
+      {
+        "question": "The Earth is flat.",
+        "answer": "False",
+        "type": "boolean"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Programming Basics",
+    "questions": [
+      {
+        "question": "Which language runs in a web browser?",
+        "choices": ["Python", "C++", "JavaScript", "Java"],
+        "answer": "JavaScript",
+        "type": "multiple"
+      },
+      {
+        "question": "React is a JavaScript library for building user interfaces.",
+        "answer": "True",
+        "type": "boolean"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Science Quiz",
+    "questions": [
+      {
+        "question": "What is the chemical symbol for water?",
+        "choices": ["H2O", "O2", "CO2", "NaCl"],
+        "answer": "H2O",
+        "type": "multiple"
+      },
+      {
+        "question": "Humans have walked on Mars.",
+        "answer": "False",
+        "type": "boolean"
+      }
+    ]
+  }
+]
