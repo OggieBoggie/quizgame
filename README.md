@@ -11,8 +11,6 @@ Users can choose from a list of available quizzes, and answer multiple choice of
 - **Score Tracking** - Keeps track of the user's score
 - **Real Time Leaderboard** - Users can compare their scores to others at the end
 - **OAuth** - Allow authentication with google accounts
-
-## Planned Features
 - **Filtering and Querying Quizzes** - Allows users to search for certain quizzes
 
 ## Technology
@@ -34,7 +32,21 @@ cd react-quiz app
 npm install
 ```
 
-### Run the development server
+### 3. Setup a firebase project
+https://console.firebase.google.com/u/0/
+
+### 4. Create a .env file with firebase credentials
+```bash
+VITE_FIREBASE_API_KEY=
+VITE_FIREBASE_AUTH_DOMAIN=
+VITE_FIREBASE_PROJECT_ID=
+VITE_FIREBASE_STORAGE_BUCKET=
+VITE_FIREBASE_MESSAGING_SENDER_ID=
+VITE_FIREBASE_APP_ID=
+VITE_FIREBASE_MEASUREMENT_ID=
+```
+
+### 5. Run the development server
 ```bash
 npm run dev
 ```
