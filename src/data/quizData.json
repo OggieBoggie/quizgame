@@ -2,6 +2,7 @@
   {
     "id": 1,
     "title": "General Knowledge",
+    "category": "General",
     "questions": [
       {
         "question": "What is the capital of France?",
@@ -19,6 +20,7 @@
   {
     "id": 2,
     "title": "Programming Basics",
+    "category": "Technology",
     "questions": [
       {
         "question": "Which language runs in a web browser?",
@@ -36,6 +38,7 @@
   {
     "id": 3,
     "title": "Science Quiz",
+    "category": "Science",
     "questions": [
       {
         "question": "What is the chemical symbol for water?",
