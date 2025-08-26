@@ -35,16 +35,7 @@ npm install
 ### 3. Setup a firebase project
 https://console.firebase.google.com/u/0/
 
-### 4. Create a .env file with firebase credentials
-```bash
-VITE_FIREBASE_API_KEY=
-VITE_FIREBASE_AUTH_DOMAIN=
-VITE_FIREBASE_PROJECT_ID=
-VITE_FIREBASE_STORAGE_BUCKET=
-VITE_FIREBASE_MESSAGING_SENDER_ID=
-VITE_FIREBASE_APP_ID=
-VITE_FIREBASE_MEASUREMENT_ID=
-```
+### 4. Add your config to src/types/firebase.ts
 
 ### 5. Run the development server
 ```bash

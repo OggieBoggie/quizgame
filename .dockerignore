@@ -17,11 +17,6 @@ yarn-error.log*
 pnpm-debug.log*
 *.log
 
-# Local env files
-.env
-.env.local
-.env.*.local
-
 # Git
 .git
 .gitignore
