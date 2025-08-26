@@ -1,5 +1,5 @@
 # Step 1: Build the app
-FROM node:20-alpine as builder
+FROM node:20-alpine AS builder
 
 # Set the working directory in the Docker container
 WORKDIR /app

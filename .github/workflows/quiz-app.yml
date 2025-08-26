@@ -50,4 +50,4 @@ jobs:
             -t quiz-app:latest .
       
       - name: Push to Docker Hub
-        run: docker push quiz-app:latest
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/quiz-app:latest
