@@ -24,6 +24,9 @@ jobs:
       - name: Install node modules
         run: npm install
       
+      - name: Run Tests
+        run: npm test
+      
       - name: Docker login
         uses: docker/login-action@v2
         with:
@@ -33,3 +36,6 @@ jobs:
       - name: Docker build
         run: |
           docker build -t oggieboggie/quiz-app:latest .
+      
+      - name: Docker push
+        run: docker push oggieboggie/quiz-app:latest 
